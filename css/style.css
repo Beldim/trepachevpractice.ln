@@ -1,0 +1,14 @@
+#wrapper {
+    text-align: center;
+}
+.input, .sum{
+    height: 30px;
+    width: 200px;
+    margin: 2px;
+    left: 50%;
+}
+.button {
+    height: 30px;
+    width: 200px;
+    margin: 2px auto;
+}
