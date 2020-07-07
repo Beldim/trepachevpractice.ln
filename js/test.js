@@ -71,3 +71,101 @@ function go(){
         }
     }
 } */
+/* 6 */
+/* let elem = document.getElementById('enter');
+elem.addEventListener('focus', placeholder);
+elem.addEventListener('blur', go);
+function placeholder(){
+    elem.placeholder = '';
+}
+let result = '';
+function go(){
+    let arr = elem.value.split(' ');
+    for (i = 0; i < arr.length; i++){  
+       let str = arr[i][0].toUpperCase()+arr[i].slice(1);  
+        result += str + ' ';
+    }
+    elem.value = result;
+    result = '';    
+} */
+/* 6 */
+/* let elem = document.getElementById('enter');
+elem.addEventListener('focus', placeholder);
+elem.addEventListener('blur', bigLatter);
+function placeholder(){
+    elem.placeholder = '';
+}
+function bigLatter(){
+    elem.value = go(elem.value);
+}
+function go(str){
+    let arr = str.split(' ');
+    for (i = 0; i < arr.length; i++){
+        arr[i] = arr[i].split('');
+        arr[i][0] = arr[i][0].toUpperCase();
+        arr[i] = arr[i].join('');
+    }
+    str = arr.join(' ');
+    return str;
+} */
+/* 7 */
+/* let elem = document.getElementById('enter');
+elem.addEventListener('focus', placeholder);
+elem.addEventListener('blur', info);
+function placeholder(){
+    elem.placeholder = '';
+}
+function info(){
+    elem.value = go(elem.value);
+}
+function go(str){
+    let arr = str.split(' ');
+    return 'Количество слов:' + arr.length;
+} */
+/* 8 */
+/* let elem = document.getElementById('enter');
+elem.addEventListener('focus', placeholder);
+elem.addEventListener('blur', info);
+function placeholder(){
+    elem.placeholder = '';
+}
+function info(){
+    let max = 0;
+    let arr = elem.value.split(' ');
+    let arr2 = [];
+    for (i = 0; i < arr.length; i++){
+        let num = 0;
+        arr2 = arr[i].split('');
+        for (j = 0; j < arr2.length; j++){
+            num += 1;
+        }
+        if (num > max){
+            max = num;
+        }
+        elem.value = 'Самое длинное слово содержит символов ' + max;
+    }
+} */
+/* 9 */
+/* let elem = document.getElementById('enter');
+elem.addEventListener('focus', placeholder);
+elem.addEventListener('blur', info);
+function placeholder(){
+    elem.placeholder = '';
+}
+function info(){
+    let arr = elem.value.split('.');
+    let arr2 = arr.reverse();
+    elem.value = arr2.join('-');``
+} */
+/* 10 */
+/* let elem = document.getElementById('enter');
+elem.addEventListener('focus', placeholder);
+elem.addEventListener('blur', info);
+function placeholder(){
+    elem.placeholder = '';
+}
+function info(){
+    let date = new Date();
+    elem.value = date.getFullYear()-elem.value;
+} */
+/* 11 */
