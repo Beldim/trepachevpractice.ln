@@ -48,3 +48,26 @@ function go(){
     result.innerHTML = sum/arr.length;
 } */
 /* 5 */
+/* let enter = document.getElementById('enter');
+enter.addEventListener('focus', placeholder);
+function placeholder(){
+    enter.placeholder = '';
+}
+enter.addEventListener('blur', go);
+function go(){
+    let enter = document.getElementById('enter');
+    let elems = document.getElementsByClassName('name');
+        if (enter.value !== 0){
+            let str = enter.value;
+            let arr = str.split(' ');
+            for (i = 0; i < arr.length; i++){
+                elems[i].value = arr[i];
+            }
+        }    
+        if (enter.value == 0){
+        enter.placeholder = 'ФИО';
+         for (i = 0; i < elems.length; i++){
+            elems[i] = '';
+        }
+    }
+} */
