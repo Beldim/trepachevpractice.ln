@@ -169,3 +169,92 @@ function info(){
     elem.value = date.getFullYear()-elem.value;
 } */
 /* 11 */
+/* let elem = document.getElementById('enter');
+elem.addEventListener('blur', go);
+function go(){
+    let dayWeek = ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'];
+    let arr = elem.value.split('.');
+    let arr2 = arr.reverse();
+    let str = arr2.join(',');
+    let date = new Date(str);
+    let day = date.getDay();
+    elem.value = dayWeek[day];
+} */
+/* 12 */
+/* let elem = document.getElementById('enter');
+elem.addEventListener('blur', go);
+function go(){
+    let arr = elem.value.split('');
+    let arr2 = elem.value.split('').reverse();
+    for (i = 0; i < arr.length; i++){
+        if (arr[i] !== arr2[i]) {
+            alert('Это слово не палендром');
+            return;
+        }        
+    }
+    alert('Это слово палендром');
+        return;
+} */
+/* 13 */
+/* let elem = document.getElementById('enter');
+elem.addEventListener('blur', go);
+function go(){
+    let arr = elem.value.split('');    
+    for (i = 0; i < arr.length; i++){
+        if (arr[i] == 3) {
+             alert('Данное число содержит цифру: 3');
+            return;
+        }   
+    }
+} */
+/* 14 */
+/* let elem = document.getElementsByTagName('p');
+let button = document.getElementById('btn');
+button.addEventListener('click', go);
+function go(){
+    for (i = 0; i < elem.length; i++){
+        let num = i + 1;
+        elem[i].innerHTML = elem[i].innerHTML + ' ' + num;
+    }
+} */
+/* 15 */
+/* let elem = document.getElementsByTagName('p');
+let button = document.getElementById('btn');
+button.addEventListener('click', go);
+function go(){
+    let arr = [];            
+    for (i = 0; i < elem.length; i++){
+        arr[i] = +elem[i].innerHTML;        
+    }    
+    let input = document.getElementById('enter');
+    input.value = arr.sort(sortArr);
+}
+function sortArr(a, b) {
+	if (a > b) {
+		return 1;
+	}
+	if (a < b) {
+		return -1;
+ 	}
+	if (a == b) {
+		return 0;
+ 	}
+ } */
+ /* 16 */
+/*  let elem = document.getElementsByTagName('a');
+window.onload = start();
+function start() {
+	for (var i = 0; i < elem.length; i++) {
+		elem[i].innerHTML = elem[i].innerHTML + '(' +elem[i].href+')';
+	}
+ } */
+ /* 17 */
+/*  let elem = document.getElementsByTagName('a');
+window.onload = start();
+function start() {
+	for (let i = 0; i < elem.length; i++) {
+		if (elem[i].getAttribute('href').indexOf('http://') == 0){
+            elem[i].innerHTML = elem[i].innerHTML + '&rarr;';
+        }
+	}
+ } */
