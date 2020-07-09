@@ -258,3 +258,57 @@ function start() {
         }
 	}
  } */
+ /* 18 */
+/*  let elem = document.getElementsByTagName('p');
+ for (i = 0; i < elem.length; i++){
+     elem[i].addEventListener('click', start);
+    }
+    function start(){
+        this.innerHTML = Math.pow(this.innerHTML, 2);
+ } */
+ /* 19 */
+/*  let elem = document.getElementsByTagName('img');
+ for (i = 0; i < elem.length; i++){
+     elem[i].addEventListener('click', start);
+    }
+    function start(){
+        this.height = this.height*2;        
+ } */
+ /* 20 */
+/*  let elem = document.getElementsByTagName('img');
+ for (i = 0; i < elem.length; i++){
+     elem[i].addEventListener('click', start);
+    }
+    function start(){
+        this.height = this.height*2;
+        this.removeEventListener('click', start);
+        this.addEventListener('click', end);
+ }
+    function end(){
+        this.height = this.height/2;
+        this.removeEventListener('click', end);
+        this.addEventListener('click', start);
+    } */
+/* 21 */
+/* let elem = document.getElementsByTagName('img');
+ for (i = 0; i < elem.length; i++){
+     elem[i].addEventListener('click', start);
+    }
+    function start(){
+        let bigImg = document.getElementById('task');
+        bigImg.src = this.src;
+    } */
+/* 22 */
+/* let elem = document.getElementById('enter');
+let sub = document.getElementsByClassName('cls');
+for (i = 0; i < sub.length; i++){
+    sub[i].addEventListener('click', start)
+}
+function start(){
+    let number = +elem.value + +this.value;
+    if (number>=0){
+        elem.value = number;
+    } else {
+        elem.value = 0;
+    }
+} */
