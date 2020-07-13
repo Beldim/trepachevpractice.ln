@@ -312,3 +312,20 @@ function start(){
         elem.value = 0;
     }
 } */
+/* 23 */
+/* let elem = document.getElementById('enter');
+elem.addEventListener('blur', go);
+function go(){
+    if (elem.value > 0 && elem.value <= 100){
+        elem.style.backgroundColor = "#00ff00";
+    } else {
+        elem.style.backgroundColor = "#ff0000";
+    }
+} */
+/* 24 */
+/* let elem = document.getElementById('enter');
+document.documentElement.addEventListener('mouseup', go);
+function go(){
+    let content = window.getSelection().toString();
+    elem.value = content;
+} */
