@@ -329,3 +329,22 @@ function go(){
     let content = window.getSelection().toString();
     elem.value = content;
 } */
+/* 25 */
+/* let elems = document.getElementsByTagName('p');
+let arr = [];
+for (i = 0; i < elems.length; i++){
+    arr.push(elems[i].innerHTML);    
+}
+document.documentElement.addEventListener('click', start);
+function go(arr){  
+    let max = Math.max.apply(null, arr);  
+    return max;
+};
+function start(){
+    for (j = 0; j < elems.length; j++){
+        if (go(arr) == elems[j].innerHTML){
+            elems[j].style.backgroundColor = "#00ff00";
+        }
+    }
+} */
+/* 26 */
