@@ -348,3 +348,22 @@ function start(){
     }
 } */
 /* 26 */
+/* let elems = document.getElementsByTagName('p');
+let num = 1;
+for (i = 0; i < elems.length; i++){
+    elems[i].addEventListener('click', func);
+}
+function func(){
+    let inp = document.getElementById('enter');
+    inp.value = num;
+    num += 1;
+} */
+/* 27 */
+/* let elem = document.getElementById('enter');
+function start(){
+    window.setInterval(timer, 1000);
+}
+function timer(){
+    elem.value *= parseInt(elem.value);
+} */
+/* 28 */
