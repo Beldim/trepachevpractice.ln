@@ -367,3 +367,42 @@ function timer(){
     elem.value *= parseInt(elem.value);
 } */
 /* 28 */
+/* let btn = document.getElementById('btn');
+let elem = document.getElementById('enter');
+btn.addEventListener('click', generate);
+function generate(){
+    let str = '';
+    let symbols = '0123456789qwertyuiopasdfghjklzxcvbnm';
+    for (i = 0; i < 8; i++){
+        str += symbols.charAt(Math.floor(Math.random()*symbols.length));
+        elem.value = str;
+    }
+} */
+/* 29 */
+/* let btn = document.getElementById('btn');
+let elem = document.getElementById('enter');
+let leng = document.getElementById('leng');
+btn.addEventListener('click', generate);
+function generate(){
+    let str = '';
+    let symbols = '0123456789qwertyuiopasdfghjklzxcvbnm';
+    for (i = 0; i < leng.value; i++){
+        str += symbols.charAt(Math.floor(Math.random()*symbols.length));
+        elem.value = str;
+    }
+} */
+/* 30 */
+/* let btn = document.getElementById('btn');
+let elem = document.getElementById('enter');
+let leng = document.getElementById('leng');
+let symb = document.getElementById('symb');
+btn.addEventListener('click', generate);
+function generate(){
+    let str = '';
+    let symbols = symb.value;
+    for (i = 0; i < leng.value; i++){
+        str += symbols.charAt(Math.floor(Math.random()*symbols.length));
+        elem.value = str;
+    }
+} */
+/* 31 */
