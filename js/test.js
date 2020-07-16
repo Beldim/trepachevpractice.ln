@@ -406,3 +406,30 @@ function generate(){
     }
 } */
 /* 31 */
+/* let result = document.getElementById('info');
+function start(){
+    let elem = document.getElementById('inp');
+    result.innerHTML = elem.value;
+    window.timerId = window.setInterval(timer, 1000);	            
+    }
+function timer(){    
+    if (result.innerHTML > 0){
+        result.innerHTML = result.innerHTML-1;
+    } if (result.innerHTML == 0){
+        stop();
+    }
+}
+function stop(){
+    window.clearInterval(window.timerId);
+} */
+/* 32 */
+/* let result = document.getElementById('info');
+window.setInterval(timer, 1000);
+function timer(){    
+    if (result.style.color == 'red'){
+        result.style.color = 'lime';
+    } else {
+        result.style.color = 'red';
+    }
+} */
+/* 33 */
