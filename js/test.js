@@ -433,3 +433,27 @@ function timer(){
     }
 } */
 /* 33 */
+/* let elem = document.getElementById('info');
+let arr = ['red', 'green', 'blue'];
+window.setInterval(timer, 1000);
+let i = 0;
+function timer(){    
+    elem.style.backgroundColor = arr[i];
+    i++;
+    if (i > arr.length){
+        i = 0;
+    }
+} */
+/* 34 */
+/* let elem = document.getElementsByTagName('input');
+let i = 0;
+let num = 1;
+window.setInterval(timer, 1000);
+function timer(){    
+    elem[i].value = num;
+    i++;
+    num++;
+    if (i > elem.length - 1){
+        i = 0;
+    };
+} */
