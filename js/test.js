@@ -445,6 +445,21 @@ function timer(){
     }
 } */
 /* 34 */
+/* let arr = ['один', 'два', 'три'];
+let elem = document.getElementById('elem');
+let num = 0;
+elem.innerHTML = arr[num];
+let link = document.getElementById('link');
+link.addEventListener('click', func);
+function func(){     
+    if (num < arr.length){
+        elem.innerHTML = arr[num];
+        num += 1;        
+    } else {
+        num = 0;
+    }
+} */
+/* 35 */
 /* let elem = document.getElementsByTagName('input');
 let i = 0;
 let num = 1;
@@ -457,3 +472,15 @@ function timer(){
         i = 0;
     };
 } */
+/* 36 */
+/* let link = document.getElementById('link');
+let chek = document.getElementById('chek');
+link.addEventListener('click', func);
+function func(){
+    if (chek.checked){
+        chek.checked = false;
+    } else {
+        chek.checked = true;
+    }
+} */
+/* 37 */
