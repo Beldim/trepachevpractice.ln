@@ -484,3 +484,54 @@ function func(){
     }
 } */
 /* 37 */
+/* let btn = document.getElementById('btn');
+let elem = document.getElementsByTagName('input');
+btn.addEventListener('click', start);
+function start(){
+    for (i = 0; i < elem.length; i++){
+    if (elem[i].checked){
+        elem[i].checked = false;
+    } else {
+        elem[i].checked = true;
+    }
+}
+} */
+/* 38 */
+/* let elem = document.getElementsByTagName('input');
+for (i = 0; i < elem.length; i++){
+    elem[i].addEventListener('change', func);
+}
+let txt = document.getElementById('text');
+let arr = [];
+function func(){
+    if(this.checked) {
+		arr.push(this.value);
+		txt.innerHTML = arr;
+ 	}
+} */
+/* 39 */
+/* let elem = document.getElementsByTagName('input');
+for (i = 0; i < elem.length; i++){
+    elem[i].addEventListener('change', func);
+}
+let txt = document.getElementById('text');
+let arr = [];
+function func(){
+    if(this.checked) {
+		arr.push(this.value);
+		txt.innerHTML = arr;
+ 	}
+}  */
+/* 40 */
+/* let elem = document.getElementById('chek');
+elem.addEventListener('change', func);
+let inp = document.getElementById('inp');
+inp.hidden = true;
+function func(){
+    if(this.checked) {
+		inp.hidden = false;
+     } else{
+        inp.hidden = true;
+     }     
+} */
+/* 41 */
