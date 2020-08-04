@@ -535,3 +535,43 @@ function func(){
      }     
 } */
 /* 41 */
+/* function func() {
+   let input = document.getElementsByTagName('input');
+   let elem = document.querySelectorAll('input + p');
+   for (let i = 0; i< input.length; i++) {
+       if (!input[i].checked) {
+           elem[i].style.display = "none";
+       } else {
+           elem[i].style.display = "block";
+        }
+    }
+}   */
+/* 42 */
+/* function func() {
+    let n = 0;
+    let input = document.getElementById('inp')
+    n = +input.value;
+    let elem = document.getElementsByTagName('li');
+    elem[n-1].style.backgroundColor = '#00ff00';
+} */
+/* 43 */
+/* let input = document.getElementsByTagName('input');
+for (i = 0; i < input.length; i++){
+    input[i].addEventListener('change', func);
+}
+let text = document.getElementById('text');
+function func(){
+    if (this.checked) {
+		text.style.cssText = this.value;
+	} else {
+		text.style.cssText = 'none';
+	}
+} */
+/* 44 */
+/* let button = document.getElementsByTagName('button');
+for (i = 0; i < button.length; i++){
+    button[i].addEventListener('click', func);
+}
+function func(){
+    this.parentNode.style.display = 'none';
+} */
