@@ -575,3 +575,18 @@ for (i = 0; i < button.length; i++){
 function func(){
     this.parentNode.style.display = 'none';
 } */
+/* 45 */
+let elem = document.getElementById('input');
+let button = document.getElementById('button');
+let list = document.querySelector('ul');
+button.addEventListener('click', go);
+function go(){
+    let arr = elem.value.split(',');
+    let item;
+    list.innerHTML = '';
+    for (let i = 0; i < arr.length; i++){
+        item = document.createElement('li');
+        item.innerHTML = arr[i];
+        list.appendChild(item);
+    }
+}
