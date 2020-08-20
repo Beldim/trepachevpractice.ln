@@ -576,7 +576,7 @@ function func(){
     this.parentNode.style.display = 'none';
 } */
 /* 45 */
-let elem = document.getElementById('input');
+/* let elem = document.getElementById('input');
 let button = document.getElementById('button');
 let list = document.querySelector('ul');
 button.addEventListener('click', go);
@@ -589,4 +589,26 @@ function go(){
         item.innerHTML = arr[i];
         list.appendChild(item);
     }
-}
+} */
+/* 46 */
+/* let elem = document.querySelector('input');
+let parag = document.querySelector('p');
+elem.addEventListener('keypress', go);
+function go(event){
+    if (event.which == 13){
+    parag.innerHTML += elem.value + ', ';
+    elem.value = '';
+    }
+} */
+/* 47 */
+/* let btn = document.querySelector('button');
+let elems = document.getElementsByTagName('div');
+btn.addEventListener('click', go);
+let str = '';
+function go(){
+    for (i = 0; i < elems.length; i++){
+        str = elems[i].innerHTML.slice(0, 10)+'...';
+		elems[i].innerHTML = str;
+    }
+} */
+/* 48 */
