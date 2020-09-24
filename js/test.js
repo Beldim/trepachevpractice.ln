@@ -610,5 +610,37 @@ function go(){
         str = elems[i].innerHTML.slice(0, 10)+'...';
 		elems[i].innerHTML = str;
     }
-} */
+}  */
 /* 48 */
+/* let btn = document.querySelector('button');
+let elems = document.getElementsByTagName('td');
+btn.addEventListener('click', maxnumber);
+let max = '';
+let n = 0;
+function maxnumber(){
+    for (i = 0; i < elems.length; i++){
+        if (+elems[i].innerHTML > max) {
+            max = +elems[i].innerHTML;
+            n = i;
+        }
+    }
+    elems[n].style.backgroundColor = '#00ff00';
+} */
+/* 49 */
+/* let button = document.querySelector('button');
+let elems = document.getElementsByTagName('td');
+button.addEventListener('click', up);
+let input = document.querySelector('input');
+function up(){
+    let arr = [];
+    for (i = 0; i < elems.length; i++){
+        arr.push(elems[i].innerHTML);
+    }
+    arr.sort(func);
+    let str = arr.join(', ');    
+    input.value = str;
+}
+function func(a, b) {
+    return a - b;
+} */
+/* 50 */
