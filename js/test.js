@@ -644,3 +644,34 @@ function func(a, b) {
     return a - b;
 } */
 /* 50 */
+/* window.onload = function(){
+    let elems = document.querySelectorAll('td');
+    for (let i = 0; i < elems.length; i++){        
+        elems[i].addEventListener('click', activate);
+        function activate(){            
+            this.style.backgroundColor = 'red';
+            this.classList.add('active');
+        }
+    }  
+    let start = document.getElementById('go');
+    start.addEventListener('click', result);
+    function result(){
+        let sum = 0;
+        let elems = document.querySelectorAll('.active');  
+             for (let i = 0; i < elems.length; i++){
+                sum += +(elems[i].innerHTML);       
+            }    
+        let p = document.createElement('p');
+        p.innerHTML = "Сумма активных ячеек:" + sum;
+        document.body.appendChild(p);        
+    }
+    let clear = document.getElementById('clear');
+    clear.addEventListener('click', stop);
+    function stop(){
+        let elems = document.querySelectorAll('td');
+        for (let i = 0; i < elems.length; i++){        
+            elems[i].classList = [];
+            elems[i].style.backgroundColor = 'white';            
+        };
+    };
+}; */
